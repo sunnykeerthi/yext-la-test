@@ -1,0 +1,36 @@
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    border: 1px solid #d8dde6;
+    border-radius: 0.25rem;
+    overflow: hidden;
+}
+
+.message-list {
+    flex: 1 1 auto;
+    overflow-y: auto;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.message-list li {
+    padding: 0.5rem;
+    border-bottom: 1px solid #d8dde6;
+}
+
+.user-message {
+    text-align: right;
+    background-color: #f4f6f9;
+}
+
+.message-input {
+    display: flex;
+    border-top: 1px solid #d8dde6;
+    padding: 0.5rem;
+}
+
+.lightning-input {
+    flex: 1;
+}
